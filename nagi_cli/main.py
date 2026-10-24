@@ -1,4 +1,4 @@
-"""Nagi CLI v0.6.2 — streaming, response modes and research integrity."""
+"""Nagi CLI v0.5.0 — streaming, response modes and research integrity."""
 from pathlib import Path
 import json
 import os
@@ -147,7 +147,7 @@ def chat(mode: str = typer.Option(DEFAULT_MODE, "--mode", "-m")):
     """Interactive chat: /mode fast|balanced|research, /clear, /profile, /exit."""
     mode = validate_mode(mode)
     messages = [{"role": "system", "content": prompt_for(mode)}]
-    console.print(f"[bold cyan]Nagi CLI v0.6.2[/]  Model: {current_model()}  Mode: {mode}")
+    console.print(f"[bold cyan]Nagi CLI v0.5.0[/]  Model: {current_model()}  Mode: {mode}")
     console.print("[dim]/mode fast | /mode balanced | /mode research | /clear | /profile | /exit[/]")
     while True:
         try:
