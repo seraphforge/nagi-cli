@@ -2,7 +2,7 @@
 
 Local Ollama-powered coding and cybersecurity research assistant.
 
-> Package version: **0.5.0**. Some CLI output currently says v0.6.2; version strings need to be synchronized before a tagged release.
+> Current package version: **0.5.0**.
 
 ## Features
 
@@ -70,4 +70,4 @@ python -m pytest -q
 
 ## Status and contributing
 
-This is an early public release. Issues and pull requests are welcome. License terms have not yet been selected; until a license is added, do not assume permission to redistribute or modify the code beyond applicable law.
+This is an early public release. Issues and pull requests are welcome. Licensed under the MIT License. See [LICENSE](LICENSE).
